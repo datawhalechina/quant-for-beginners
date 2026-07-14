@@ -18,8 +18,7 @@ import pandas as pd             # 处理表格数据（像 Excel 一张表）
 import matplotlib.pyplot as plt   # 画折线图、对比图
 
 # ========== 让图表能正确显示中文 ==========
-plt.rcParams['font.sans-serif'] = ['SimHei']   # 指定中文字体（Windows 常用黑体）
-plt.rcParams['axes.unicode_minus'] = False    # 让坐标轴上的负号正常显示
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 np.random.seed(7)                             # 固定随机种子：每次运行随机数相同，方便对照
 
 # ========== 第1步：模拟三段行情（涨→跌→恢复）==========
@@ -74,8 +73,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.sans-serif'] = ['SimHei']      # 图表中文
-plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 np.random.seed(42)          # 固定随机数，结果可复现
 days = 120                  # 一共模拟 120 个交易日
@@ -111,10 +109,7 @@ print(f"最高价格: ¥{price.max():.2f}")            # 期间最高价
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams['axes.unicode_minus'] = False
-
-np.random.seed(2026)        # 固定随机种子
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 n_stocks = 50               # 模拟 50 只「虚拟股票」
 n_days = 250                # 每只走 250 个交易日（约一年）
@@ -189,10 +184,7 @@ print("=" * 60)
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams['axes.unicode_minus'] = False
-
-np.random.seed(2026)
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 n_rounds = 1000             # 每位玩家模拟下注 1000 轮
 n_simulations = 200         # 每种策略重复 200 次（看分布）
@@ -283,10 +275,7 @@ warnings.filterwarnings('ignore')   # 隐藏不影响学习的警告信息
 import matplotlib.pyplot as plt     # 画图
 import yfinance as yf               # 从雅虎财经免费下载行情
 
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams['axes.unicode_minus'] = False
-
-# 一行下载苹果 AAPL 最近 6 个月的日线（需要联网）
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 aapl = yf.download('AAPL', period='6mo', progress=False, multi_level_index=False)
 
 print('🎉 恭喜！你已经拿到真实股票数据')

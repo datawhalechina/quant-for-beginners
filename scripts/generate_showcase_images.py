@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "images"
 OUT.mkdir(parents=True, exist_ok=True)
 
-plt.rcParams["font.sans-serif"] = ["SimHei", "Microsoft YaHei", "DejaVu Sans"]
+plt.rcParams["font.sans-serif"] = ["PingFang HK", "STHeiti", "Microsoft YaHei", "SimHei"]
 plt.rcParams["axes.unicode_minus"] = False
 
 

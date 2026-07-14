@@ -109,7 +109,7 @@ cells = [
         "import yfinance as yf\n"
         "\n"
         "plt.rcParams['font.sans-serif'] = [              # 跨平台中文字体回退\n"
-        "    'PingFang SC', 'Microsoft YaHei', 'SimHei',\n"
+        "    'PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei',\n"
         "    'Noto Sans CJK SC', 'WenQuanYi Micro Hei', 'DejaVu Sans',\n"
         "]\n"
         "plt.rcParams['axes.unicode_minus'] = False\n"

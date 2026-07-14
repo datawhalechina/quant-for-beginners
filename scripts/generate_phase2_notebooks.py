@@ -22,8 +22,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 
-plt.rcParams['font.sans-serif'] = ['SimHei']  # Windows 黑体；Mac 可改 PingFang SC
-plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 TRADING_DAYS = 252   # 年化常用交易日数
 print('环境就绪 ✓')

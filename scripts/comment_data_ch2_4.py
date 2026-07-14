@@ -12,8 +12,7 @@ import pandas as pd          # 表格数据处理
 import matplotlib.pyplot as plt  # 绘图
 import yfinance as yf        # 下载雅虎财经股票数据（需联网）
 
-plt.rcParams['font.sans-serif'] = ['SimHei']  # Windows 黑体；Mac 可改 PingFang SC
-plt.rcParams['axes.unicode_minus'] = False     # 负号正常显示
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 print('环境就绪 ✓')
 ''',
@@ -211,8 +210,7 @@ import pandas as pd             # 表格数据
 import matplotlib.pyplot as plt   # 画图
 import yfinance as yf           # 下载股票行情（需联网）
 
-plt.rcParams['font.sans-serif'] = ['SimHei']   # 图表中文
-plt.rcParams['axes.unicode_minus'] = False    # 负号正常
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 
 TICKER = 'AAPL'   # 股票代码，可改成 TSLA、NVDA
 PERIOD = '2y'     # 下载多长历史（均线需要足够天数）
@@ -403,10 +401,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams['axes.unicode_minus'] = False
-
-TICKER = 'AAPL'      # 策略交易哪只股票
+plt.rcParams['font.sans-serif'] = ['PingFang HK', 'STHeiti', 'Microsoft YaHei', 'SimHei']
 BENCHMARK = 'SPY'    # 大盘对比用标普500 ETF
 PERIOD = '2y'        # 回测样本长度
 
