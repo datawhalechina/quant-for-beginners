@@ -1,3 +1,9 @@
+---
+  
+##🎉 重磅！恭喜《Quant For Beginners》开源课程（作者：程翊博）入选中国计算机学会（CCF）ODTC开源激励计划，官方认证！国家级学术权威评定！
+
+---
+
 <p align="center">
   <a href="notebooks/phase1_intro/01_什么是量化金融.ipynb">
     <img src="assets/images/cover-phase1.jpg" width="49%" alt="第一期 · 从 Python 到 AI 量化交易实战" style="max-width: 450px; border-radius: 8px;"/>
