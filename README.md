@@ -195,17 +195,11 @@ quant-for-beginners/
 
 ---
 
-## Star 趋势
-
-<p align="center">
-  <a href="https://www.star-history.com/#yibohere/Quant-for-Beginners,datawhalechina/quant-for-beginners&Date">
-    <img alt="Star History Chart" src="assets/images/star-history.svg" width="700"/>
-  </a>
-</p>
-
-<sub>图表使用仓库内静态 SVG，避免外链 API 加载失败。点击可跳转 star-history.com 查看交互版（含 transfer 前后两个仓库）。</sub>
+## 截止2026年8月18日，Github的Star数为498
+## 截止2026年8月18日，GitLink的Star数为5（已包含上一版本）
 
 ---
+
 
 ## 作者
 
