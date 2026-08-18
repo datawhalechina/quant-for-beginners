@@ -208,11 +208,6 @@ GitHub：[@yibohere](https://github.com/yibohere)
 
 ---
 
-## 贡献
-
-欢迎提交 Issue / Pull Request：文案优化、图示改进、示例策略与勘误。
-
----
 
 ## 免责声明
 
