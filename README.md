@@ -195,7 +195,7 @@ quant-for-beginners/
 
 ---
 
-## 截止2026年8月18日，Github的Star数为541
+## 截止2026年8月18日，Github的Star数为551
 ## 截止2026年8月18日，GitLink的Star数为37（已包含上一版本）
 
 ---
